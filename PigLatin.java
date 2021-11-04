@@ -7,7 +7,6 @@ public class PigLatin {
 	public static final String punctuation = "~`!@#$%^&*()-_=+,.<>;:'\"/?";
 	
 	public static String toPigLatin(String cleartext) {
-		boolean beginsWithVowel;
 		char finalPunctuation;
 		
 		ArrayList<String> words = new ArrayList<String>();
