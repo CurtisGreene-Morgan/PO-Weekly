@@ -31,6 +31,3 @@ def repeated(string):
 		if (len(set(strings)) == 1) and (len(strings) > 1):
 			return True
 	return False
-
-
-print repeated("aaxxtaaxztaaxxt")
